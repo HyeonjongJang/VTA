@@ -1,15 +1,15 @@
-# A Large-Scale Real-World Evaluation of an LLM-Based Virtual Teaching Assistant
+# A Large-Scale Real-World Evaluation of an LLM-Based Virtual Assistant
 
 [ACL 2025 Industry Track]  
 Official code repository for:  
-**"A Large-Scale Real-World Evaluation of an LLM-Based Virtual Teaching Assistant"**
+**"A Large-Scale Real-World Evaluation of an LLM-Based Virtual Assistant"**
 
 ---
 
 ## 🧾 Abstract
 
-Virtual Teaching Assistants (VTAs) powered by Large Language Models (LLMs) have the potential to enhance student learning by providing instant feedback and facilitating multi-turn interactions. However, empirical studies on their effectiveness and acceptance in real-world classrooms are limited, leaving their practical impact uncertain. In this study, we develop an LLM-based VTA and deploy it in an introductory
-AI programming course with 477 graduate students. To assess how student perceptions of the VTA’s performance evolve over time, we conduct three rounds of comprehensive surveys at different stages of the course. Additionally, we analyze 3,869 student–VTA interaction pairs to identify common question types and engagement patterns. We then compare these interactions with traditional student-human instructor interactions to evaluate the VTA’s role in the learning process. Through a large-scale empirical study and interaction analysis, we assess the feasibility of deploying VTAs in real-world classrooms and identify key challenges for broader adoption. Finally, we release the source code of our VTA system, fostering future advancements in AI-driven education.
+Virtual Assistants (VTAs) powered by Large Language Models (LLMs) have the potential to enhance student learning by providing instant feedback and facilitating multi-turn interactions. However, empirical studies on their effectiveness and acceptance in real-world classrooms are limited, leaving their practical impact uncertain. In this study, we develop an LLM-based Virtual Assistant and deploy it in an introductory
+AI programming course with 477 graduate students. To assess how student perceptions of the Virtual Assistant’s performance evolve over time, we conduct three rounds of comprehensive surveys at different stages of the course. Additionally, we analyze 3,869 student–VTA interaction pairs to identify common question types and engagement patterns. We then compare these interactions with traditional student-human instructor interactions to evaluate the Virtual Assistant’s role in the learning process. Through a large-scale empirical study and interaction analysis, we assess the feasibility of deploying VTAs in real-world classrooms and identify key challenges for broader adoption. Finally, we release the source code of our VTA system, fostering future advancements in AI-driven education.
 
 ---
 
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 ### 2. System Prompt Customization
 
-- The system prompt used in the AI504 course is defined in `chains.py`.
+- The system prompt used in the Kyung Hee University's Regulations Search Assistant course is defined in `chains.py`.
 - Update this prompt to fit your own course or institution-specific context.
 
 ### 3. Retriever Configuration
