@@ -11,10 +11,10 @@ def first_page():
     
     **Important Notice:**
     - This tool is exclusively for the Kyung Hee University's Regulations Search. **Do not** use it for any other purposes.
-    - There is a rate limit on GPT-4 usage. Please be mindful of your usage to ensure that all students have an equal opportunity to benefit from this tool.
-    - **Student IDs found to be using this tool for purposes other than for the Regulations Search, or with abnormally high usage, may have their access revoked.**
-    - Conversations with the Virtual Assistant will be stored and can be used for research purposes. However, your student ID will be thoroughly anonymized. **Do not** include any identifying information in your conversations.
-    - Since the model may hallucinate, for matters directly related to grades (e.g., project submission deadlines), be sure to check the relevant documents directly or contact the Assistant.
+    - There is a rate limit on GPT-4 usage. Please be mindful of your usage to ensure that all members have an equal opportunity to benefit from this tool.
+    - **Members IDs found to be using this tool for purposes other than for the Regulations Search, or with abnormally high usage, may have their access revoked.**
+    - Conversations with the Virtual Assistant will be stored and can be used for research purposes. However, your member ID will be thoroughly anonymized. **Do not** include any identifying information in your conversations.
+    - Please note that the model may occasionally provide inaccurate answers. For important school regulations or policies (such as academic schedules, graduation requirements, etc.), be sure to verify the information through official documents or by directly contacting the school administration office.
     - By using this Virtual Assistant, you agree to these terms and conditions.
     """)
 
@@ -28,7 +28,7 @@ def first_page():
     # Agreement Checkbox
     agreement = st.checkbox("I agree to the terms and conditions stated above.")
     
-    student_id = st.text_input("Submit your Student ID to get started!")
+    student_id = st.text_input("Submit your Member ID to get started!")
 
     if st.button("Submit"):
         if agreement:
@@ -36,8 +36,9 @@ def first_page():
                 st.session_state["student_id"] = student_id
                 st.rerun()
             else:
-                st.error("Invalid Student ID. Please try again.")
+                st.error("Invalid Members ID. Please try again.")
         else:
             st.error("You must agree to the terms and conditions before proceeding.")
 
+구성원
 

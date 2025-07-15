@@ -12,7 +12,7 @@ import uuid
 client = Client()
 
 def second_page():
-    st.header("Kyung Hee University's Regulations Search Chatbot")
+    st.header("Kyung Hee University's Regulations Chatbot")
 
     col1, col2 = st.columns([1, 1])
 
